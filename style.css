@@ -1,0 +1,143 @@
+*{
+	box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
+}
+nav, ul li {
+	display: inline;
+	list-style: none;
+	color: white;
+	text-align: right;
+	margin-right: 24px;
+	font-weight: 900;
+}
+nav ul li:nth-child(6){
+	border:2px solid white;
+	border-radius: 3px;
+	padding: 5px;
+}
+ul{
+	margin-top: 25px;
+}
+.image{
+	background: url(https://a.slack-edge.com/66f9/img/landing/header_logo_sprite.png)  left top no-repeat;
+	background-size: 106px 60px;
+	width: 106px;
+	height: 30px;
+	float: left;
+	margin-left: 20px;
+	margin-top: -6px;
+}
+body{
+	background-image: url(https://a.slack-edge.com/4030/img/wired/nasa-header-image.jpg);
+	background-size: cover;
+
+}
+
+.main-content{
+	color: white;
+	text-align: center;
+}
+h1{
+	font-size: 58px;
+	margin-top: 200px;
+	letter-spacing: 1px;
+	line-height: 1.4;
+}
+.content{
+	text-align: center;
+	color: white;
+}
+p{
+	text-align: center;
+	font-size: 21px;
+}
+.content{
+	width: 40%;
+	border: 1px black;
+	border-radius: 5px;
+	background-color: rgba(0,0,0, 0.7);
+	margin: auto;
+	padding: 19px 48px 10px;
+}
+.content p{
+	font-size: 15px;
+}
+button{
+	background-color: #56B68B;
+	color: white;
+	font-family:'Lato', sans-serif;
+	border: 1px solid #56B68B;
+	border-radius: 3px;
+	width: 184px;
+	margin-left: 10px; 
+	font-weight: 700;
+	height: 44px;
+	font-size: 18px;
+}
+form{
+	line-height: 1.6rem;
+
+}
+input{
+	border-radius: 3px;
+	height: 45px;
+	border: 1px solid white;
+	width: 50%;
+}
+.location{
+	font-size: 16px;
+	text-align: right;
+	margin-right: 50px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.location span{
+	font-family: 'Lato', sans-serif;
+}
+
+
+
+/*footer*/
+
+
+footer{
+	border-top: 1px solid rgba(255,255,255, 0.2);
+	font-size: 12px;
+	background-color: rgba(0,0,0,0.6);
+	height: 310px;
+}
+.footer{
+	max-width: 1014px;
+	margin-left: 145px;
+	color: #9E9EA6;
+}
+.lists{
+	width: 23%;
+	display: inline-block;
+	float: left;
+	text-align: left;
+	margin-left: 20px;
+	margin-top: 21px;
+}
+.lists p{
+	font-size: 12px;
+	font-weight: 700;
+	margin-left: -73px;
+	color: white;
+	margin-bottom: -19px;
+}
+footer ul li{
+	color: #9E9EA6;
+	line-height: 25px;
+}
+
+
+
+section{
+	background-color: rgba(41,40,40,0.8);
+	height: 50px;
+	margin-bottom: 0;
+	margin-top: 258px;
+	font-size: 15px;
+}
+
